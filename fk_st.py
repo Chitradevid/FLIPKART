@@ -8,7 +8,7 @@ file_path = 'cl_fk.csv'  # Replace with your file path
 df = pd.read_csv(file_path)
 
 # Initialize Cohere (Replace with your Cohere API key)
-cohere_api_key = "I5WzAkJerwsBeK79CZA5zLxBBBVCeJ8o8ADU4XZ6"  # Replace with your actual API key
+cohere_api_key = ""  # Replace with your actual API key
 co = cohere.Client(cohere_api_key)
 
 # Function to recommend products based on user query
